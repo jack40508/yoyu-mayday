@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mayday 五月天</title>
+
+<!--Include bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+<!--Include MyCSS-->
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
+<link rel="stylesheet" type="text/css" href="css/myindex.css">
+
+<!--Include MyJS-->
+<script src="js/myindex.js"></script>
+
+<!--Icon-->
+<link rel="icon" href="icon/favicon.ico" type="image/x-icon" />
+</head>
+
+<body style="background-image:url('img/background/background.jpg')">
+  <!--header-->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: black;">
+    <a class="navbar-brand" href="index.html">
+    <img src="img/home/title.png" height="30" alt="Mayday_title">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="artist.html">About</a>
+        <a class="nav-item nav-link" href="music.html">Album</a>
+        <a class="nav-item nav-link" target="_blank" href="http://www.mayday.jp/">Official Site</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="index_page1">
+      <!--Logo-->
+      <div class="area_title image-rwd item-center"><img src="img/home/logo.png" alt="Mayday Logo" width=100% height=auto class="img-responsive center-block"></div>
+
+      <!--Banner-->
+      <div id="carouselBannerControls" class="carousel slide toppage_middle area_banner" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselBannerControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselBannerControls" data-slide-to="1"></li>
+          <li data-target="#carouselBannerControls" data-slide-to="2"></li>
+          <li data-target="#carouselBannerControls" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner justify-content-center">
+          <div class="carousel-item active">
+            <img class="d-block align-self-center mx-auto" style="max-width:100%; max-height:70vh;" src="img/home/banner/banner01.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block align-self-center mx-auto" style="max-width:100%; max-height:70vh;" src="img/home/banner/banner02.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block align-self-center mx-auto" style="max-width:100%; max-height:70vh;" src="img/home/banner/banner03.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block align-self-center mx-auto" style="max-width:100%; max-height:70vh;" src="img/home/banner/banner04.jpg" alt="Fourth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselBannerControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselBannerControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="index_page2">
+      <!--情報Card-->
+      <div class="card text-white bg-dark page_middle" id="Maydayprofile">
+        <div class="card-header"><h2>五月天</h2></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 image-rwd item-center">
+              <img src="img/profile/about1.jpg" alt="Mayday" style="max-width: 100%; max-height: 100%;">
+            </div>
+            <div class="col-xs-12 col-md-6 detail" style="overflow-y:auto;">
+              <table width=100%>
+                <tr>
+                  <td class="td-rwd">別名</td>
+                  <td>Mayday</td>
+                </tr>
+                <tr>
+                  <td>フリガナ</td>
+                  <td>メイデイ</td>
+                </tr>
+                <tr>
+                  <td>出身地</td>
+                  <td>中華民国（台湾）<img src="img/home/Taiwan_flag.png" alt="Taiwan_Flag" width="25"></td>
+                </tr>
+                <tr>
+                  <td>活動期間</td>
+                  <td>1997年 ～</td>
+                </tr>
+                <tr>
+                  <td style="vertical-align:text-top;">メンバー</td>
+                  <td>
+                    阿信/アシン（ボーカル）<br>
+                    怪獸/モンスター（リーダー、ギタリスト）<br>
+                    瑪莎/マサ（ベーシスト）<br>
+                    石頭/ストーン（ギタリスト）<br>
+                    冠佑/ミン（ドラマー）
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align:text-top;">ジャンル</td>
+                  <td>
+                      C-POP<br>
+                      C-ROCK<br>
+                      台湾語のポップミュージック<br>
+                      ポップ・ロック
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align:text-top;">事務所</td>
+                  <td>
+                      ロックレコード（1999年 - 2006年）<br>
+                      相信音樂（2006年 – 現在）<br>
+                      アミューズ（日本、2013年 – 現在）
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer detail-btn">
+          <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#ModalMayday" aria-expanded="false" aria-controls="collapseMasaDetail" style="float: right;">プロフィール
+        </div>
+      </div>
+
+      <div class="modal fade" id="ModalMayday" tabindex="-1" role="dialog" aria-labelledby="MaydayModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content text-white bg-dark">
+            <div class="modal-header">
+              <h1 class="modal-title" id="MaydayModalLabel">阿信/アシン</h1>
+              <!--右上x-->
+              <button type="button" class="close bg-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <img src="img/profile/about1.jpg" alt="Mayday_profile" width="100%"　height="100%">
+                </div>
+                <div class="col-xs-12 mt-1">
+                  <table class="table text-white" width=100%  align="center" valign="middle" frame="void" rules="rows" border="1" bordercolor="gray" >
+                    <tr>
+                      <td class="td-rwd">別名</td>
+                      <td>Mayday</td>
+                    </tr>
+                    <tr>
+                      <td>フリガナ</td>
+                      <td>メイデイ</td>
+                    </tr>
+                    <tr>
+                      <td>出身地</td>
+                      <td>中華民国（台湾）<img src="img/home/Taiwan_flag.png" alt="Taiwan_Flag" width="25"></td>
+                    </tr>
+                    <tr>
+                      <td>活動期間</td>
+                      <td>1997年 ～</td>
+                    </tr>
+                    <tr>
+                      <td>メンバー</td>
+                      <td>
+                        阿信/アシン（ボーカル）<br>
+                        怪獸/モンスター（リーダー、ギタリスト）<br>
+                        瑪莎/マサ（ベーシスト）<br>
+                        石頭/ストーン（ギタリスト）<br>
+                        冠佑/ミン（ドラマー）
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>ジャンル</td>
+                      <td>
+                          C-POP<br>
+                          C-ROCK<br>
+                          台湾語のポップミュージック<br>
+                          ポップ・ロック
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>事務所</td>
+                      <td>
+                          ロックレコード（1999年 - 2006年）<br>
+                          相信音樂（2006年 – 現在）<br>
+                          アミューズ（日本、2013年 – 現在）
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="index_page3">
+      <!--MusicBanner-->
+      <div id="carouselMusicBannerControls" class="carousel slide page_middle" data-ride="carousel">
+        <h2 style="color:white">Top3 Album</h2>
+        <ol class="carousel-indicators d-md-none">
+          <li data-target="#carouselMusicBannerControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselMusicBannerControls" data-slide-to="1"></li>
+          <li data-target="#carouselMusicBannerControls" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner justify-content-center mt-5">
+          <div class="carousel-item active">
+            <img class="d-block align-self-center mx-auto" src="img/album/album5.jpg" alt="cover_album5" style="max-width:100%; max-height:70vh; opacity: 0.5;">
+            <div class="carousel-caption">
+              <h3 class="mb-4">おすすめ歌<br>垃圾車</h3>
+              <audio class="d-xs-none" src="music/垃圾車 朋友版.mp3" controls></audio>
+            </div>
+            <audio class="d-md-none mt-5" src="music/垃圾車 朋友版.mp3" controls></audio>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block align-self-center mx-auto" src="img/album/album4.jpg" alt="cover_album4" style="max-width:100%; max-height:70vh; opacity: 0.5;">
+            <div class="carousel-caption">
+              <h3 class="mb-4">おすすめ歌<br>而我知道</h3>
+              <audio class="d-xs-none" src="music/而我知道.mp3" controls></audio>
+            </div>
+            <audio class="d-md-none mt-5" src="music/而我知道.mp3" controls></audio>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block align-self-center mx-auto" src="img/album/album8.jpg" alt="cover_album4" style="max-width:100%; max-height:70vh; opacity: 0.5;">
+            <div class="carousel-caption">
+              <h3 class="mb-4">おすすめ歌<br>OAOA</h3>
+              <audio class="d-xs-none" src="music/OAOA(現在就是永遠).mp3" controls></audio>
+            </div>
+            <audio class="d-md-none mt-5" src="music/OAOA(現在就是永遠).mp3" controls></audio>
+          </div>
+        </div>
+        <a class="carousel-control-prev d-xs-none" href="#carouselMusicBannerControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next d-xs-none" href="#carouselMusicBannerControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!--Page Nav-->
+    <div class="nav_page">
+      <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
